@@ -1,0 +1,17 @@
+{
+  "name": "faks",
+  "version": "1.0.0",
+  "description": "This is the local server of faks team in nasa space app 2018",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ethjs": "^0.4.0",
+    "ethjs-signer": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohannad Barakat",
+  "license": "ISC"
+}
