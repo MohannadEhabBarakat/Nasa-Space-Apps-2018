@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+  
+  <title>Launch</title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="ds.css">
+  <style>
+    form{
+      display: block;
+      width: 600px;
+      margin: auto;
+      margin-top: 150px; 
+    }
+    input{
+      display: block;
+      width: 590px;
+      height: 40px;
+      margin: auto;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background: rgba(255,255,255,0.2);
+      text-align: center;
+      color: bisque;
+    }
+    #submit{
+      width: 200px;
+      cursor: pointer;
+    }
+    #submit:hover{
+      color: rgba(0, 0, 255, 0.81);
+    }
+  </style>
+</head>
+
+
+<body>
+  <nav>
+    <a href="index.html"><span>Home</span></a>
+    <a href="Launch.html">Launch</a>
+  </nav>
+  <form action="http://192.168.56.1:1998/launchData">
+    <h2>Launch data</h2>
+    <input name="date" type="date" placeholder="Date">
+    <input name="launchWindow" type="text" placeholder="Launch Window">
+    <input name="missoin" type="text" placeholder="mission">
+    <input name="description" type="text" placeholder="description">
+    <input name="fA" type="text" placeholder="from ADD">
+    <input name="fP" type="text" placeholder="from Privat">
+    <input name="missoin" type="text" placeholder="mission">
+    <input type="submit" id="submit">
+  </form>
+</body>
